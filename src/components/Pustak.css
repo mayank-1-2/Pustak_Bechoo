@@ -1,0 +1,266 @@
+body {
+  margin:0px;
+  padding:0px;
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  background-color: aqua;
+}
+.navbar-brand {
+  font-family: "Metal Mania", cursive;
+  font-size: xxx-large;
+  margin: 5px 5px 5px 0;
+}
+.mainhead {
+  display: inline;
+  top: 0px;
+}
+
+
+.panel-footer {
+  font-family: "Cabin", sans-serif;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+  background-color: #333;
+  color: gainsboro;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours > span,
+#address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: 0.8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    font-size: xx-large;
+  }
+  /* End Header */
+  /* Home Page */
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: 0.6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {
+    /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile,
+  #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand {
+    /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+
+  /* Home page */
+  #menu-tile,
+  #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+.Header{
+  height: 105px;
+}
+@media (max-width:993px){
+  .Header{
+    height: 60px;
+  }
+}
+/* #header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.navbar-brand {
+	margin: 10px;
+  padding: 5px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #040805;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.icon-bar{
+	border: 2px solid #ddd;
+}
+
+h1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+section{
+    margin: 10px;
+    background-color: pink;
+    border: 2px solid black;
+    float: left;
+    display: inline-block;
+    text-align: right;
+}
+p{
+	padding: 10px;
+	text-align: left;
+}
+h2{
+	text-align: end;
+    border: 2px solid black;
+    width: 33%;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: inline;
+}
+.row{
+	width: 100%;
+}
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3{
+		float: left;
+		width: 30%;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-lg-1,.col-lg-2{
+		float: left;
+		width: 45%;
+	}
+	.col-lg-3{
+	
+		width: 92%;
+	}
+}
+@media (max-width: 767px){
+
+	#nav-list{
+		font-size: 15px;
+	}
+	.col-lg-3 ,.col-lg-1 ,.col-lg-2{
+		width: 90%;
+		padding-right: 30px;
+		padding-left: 30px;
+	
+	}
+}
+#chi{
+    background-color: gray;
+    
+
+}
+#beef{
+    background-color: red;
+}
+#sushi{
+    background-color: #04ff10;
+} */

@@ -1,0 +1,93 @@
+body {
+  background-color: white;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/27/19/12/library-863148_960_720.jpg);
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 1200px;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.signup_heading{
+  font-family: cursive;
+  
+}
+
+#register {
+  
+ 
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  
+  
+  font-size: 14px;
+  background: transparent;
+  margin: 100px auto;
+}
+
+/* 
+  .form_label, .form_input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%
+  }
+  
+  form input {
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+  
+  }
+  
+  .button {
+    background-color: #00BFFF;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #ffffff;
+  }
+  
+  
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+  }
+  */
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+  
+}
